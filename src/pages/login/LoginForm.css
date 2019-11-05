@@ -1,0 +1,105 @@
+body{
+    background: radial-gradient(circle,#654468 0%, #310f33 100%);
+    font-family: "Helvetica Neue", Arial;
+}
+
+.form-wrapper{
+    margin: 250px auto;
+    width: 600px;
+    height: 400px;       
+    background: white;
+}
+
+.form-wrapper > header{
+    background: #734e76;
+    padding: 30px;
+    color: #fff;
+    font-weight: 600; 
+}
+
+.input-field-username{
+    background-image: url('./assets/user.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 92%;
+    height: 50px;
+    margin: 30px 30px 10px 30px;
+    border-color: #dcd8d8;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px; 
+}
+
+.input-field-username-error{
+  background-image: url('./assets/user.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 92%;
+  height: 50px;
+  margin: 30px 30px 10px 30px;
+  border-color: #db1313;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 3px; 
+}
+
+.input-field-password{
+  background-image: url('./assets/password.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 92%;
+  height: 50px;
+  margin: 30px 30px 10px 30px;
+  border-color: #dcd8d8;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px; 
+}
+
+.input-field-password-error{
+  background-image: url('./assets/password.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 92%;
+  height: 50px;
+  margin: 30px 30px 10px 30px;
+  border-color: #db1313;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 3px;  
+}
+
+button{
+    width: 18%;
+    margin-left: 20px;
+    height: 45px;
+    background-color: #734e76;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+  background-color:#4a2453;
+}
+
+.password-container{
+  margin-bottom: 15px;
+}
+
+.welcome-message{
+  color: #db1313;
+  margin: auto 230px;
+}
